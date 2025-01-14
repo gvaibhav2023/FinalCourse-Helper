@@ -31,3 +31,4 @@ Thumbs.db
 public/
 # Next.js build output
 .next/
+frontend/.next
