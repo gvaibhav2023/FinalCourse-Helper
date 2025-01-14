@@ -28,7 +28,7 @@ const CourseDetailsPage = () => {
 
   const handleDelete = async () => {
     try {
-      const response = await fetch(`https://finalcourse-helper.onrender.com/api/courses/${id}`, {
+      const response = await fetch(`https://finalcourse-helper.onrender.com//api/courses/${id}`, {
         method: "DELETE",
       });
 

@@ -24,7 +24,7 @@ const AddCoursePage = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("https://finalcourse-helper.onrender.com/api/courses", {
+      const response = await fetch("https://finalcourse-helper.onrender.com//api/courses", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
