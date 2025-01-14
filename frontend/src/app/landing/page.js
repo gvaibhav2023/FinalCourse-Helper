@@ -46,7 +46,7 @@ const CourseLandingPage = () => {
           fontWeight: "bold",
         }}
       >
-        <Typography variant="h7">Course Helpers</Typography>
+        <Typography variant="h7">Course Helper</Typography>
         <Link href="/login" passHref>
           <IconButton
             sx={{
