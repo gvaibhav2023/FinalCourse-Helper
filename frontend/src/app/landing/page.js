@@ -11,7 +11,7 @@ const CourseLandingPage = () => {
   useEffect(() => {
     const fetchCourses = async () => {
       try {
-        const response = await fetch("https://final-course-helper-b41a.vercel.app/courses"); // Replace with your backend URL
+        const response = await fetch("http://localhost:5000/api/courses"); // Replace with your backend URL
         const data = await response.json();
         setCourses(data);
       } catch (error) {
