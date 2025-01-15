@@ -24,7 +24,7 @@ const AddCoursePage = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("https://final-course-helper-b41a.vercel.app//api/courses", {
+      const response = await fetch("https://final-course-helper-b41a.vercel.app/api/courses", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
