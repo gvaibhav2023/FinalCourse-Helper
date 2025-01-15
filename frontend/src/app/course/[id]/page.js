@@ -15,7 +15,7 @@ const CourseDetailsPage = () => {
 
     const fetchCourse = async () => {
       try {
-        const response = await fetch(`https://final-course-helper-b41a.vercel.app/api/courses/${id}`);
+        const response = await fetch(`https://final-course-helper-b41a.vercel.app/courses/${id}`);
         const data = await response.json();
         setCourse(data);
       } catch (error) {
@@ -28,7 +28,7 @@ const CourseDetailsPage = () => {
 
   const handleDelete = async () => {
     try {
-      const response = await fetch(`https://final-course-helper-b41a.vercel.app/api/courses/${id}`, {
+      const response = await fetch(`https://final-course-helper-b41a.vercel.app/courses/${id}`, {
         method: "DELETE",
       });
 
